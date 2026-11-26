@@ -5,8 +5,8 @@
 #Если файл импортируют из другого файла (import tools), бирка будет "tools", то есть «меня просто позвали помочь».
 
 if __name__=="__main__":
-    print("=== Welcome to My Garden ===\n
-Plant: Rose\n
-Height: 25cm\n
-Age: 30 days\n
-=== End of Program ===")
+    print("=== Welcome to My Garden ===\n",
+            "Plant: Rose\n",
+            "Height: 25cm\n",
+            "Age: 30 days\n",
+        "=== End of Program ===")
