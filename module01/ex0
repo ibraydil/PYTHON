@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+
+#Строка if __name__ == "__main__": означает: «выполняй этот код, только если я главный».
+#Если ты запускаешь файл сам (python3 tools.py), бирка будет "__main__", то есть «я главный, меня запустили».
+#Если файл импортируют из другого файла (import tools), бирка будет "tools", то есть «меня просто позвали помочь».
+
+if __name__=="__main__":
+    print("=== Welcome to My Garden ===\n
+Plant: Rose\n
+Height: 25cm\n
+Age: 30 days\n
+=== End of Program ===")
